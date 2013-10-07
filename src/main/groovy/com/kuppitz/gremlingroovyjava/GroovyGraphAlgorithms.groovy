@@ -8,7 +8,7 @@ import com.tinkerpop.gremlin.groovy.Gremlin
  *
  * @author Daniel Kuppitz <daniel at thinkaurelius.com>
  */
-class GraphAlgorithms {
+class GroovyGraphAlgorithms {
     static {
         Gremlin.load()
     } 

@@ -1,0 +1,3 @@
+moduleName = graph-module
+moduleVersion = 1.0
+extensionClasses = com.kuppitz.gremlingroovyjava.GroovyGraphAlgorithms
