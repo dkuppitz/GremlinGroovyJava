@@ -9,9 +9,10 @@ import com.tinkerpop.gremlin.groovy.Gremlin
  * @author Daniel Kuppitz <daniel at thinkaurelius.com>
  */
 class GroovyGraphAlgorithms {
+
     static {
         Gremlin.load()
-    } 
+    }
 
     public static Map<Vertex, Integer> eigenvectorRank(Graph g) {
         Map<Vertex,Integer> m = [:]; int c = 0
